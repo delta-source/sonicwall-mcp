@@ -1,0 +1,40 @@
+# Environment files with secrets
+.env
+.env.local
+.env.production
+
+# 1Password files
+*.op
+
+# Logs
+logs/
+*.log
+
+# Docker
+.dockerignore
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# Certificates
+certs/
+*.crt
+*.key
+*.pem
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
